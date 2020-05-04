@@ -15,6 +15,7 @@ PACKAGES = " \
 
 PROVIDES = "${PACKAGES}"
 
+#    to launch gnuradio-companion (3.7) is still missing the python-pygtk lib)
 SUMMARY_packagegroup-gnss-sdr-base = "Required packages."
 RDEPENDS_packagegroup-gnss-sdr-base = " \
     gnuradio \
@@ -35,7 +36,6 @@ RDEPENDS_packagegroup-gnss-sdr-base = " \
     python-txws \
     python-pyephem \
     liberation-fonts \
-#    python-pygtk \
     python-pygobject \    
     pugixml \
     protobuf \
