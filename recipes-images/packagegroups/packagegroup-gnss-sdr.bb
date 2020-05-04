@@ -10,7 +10,6 @@ PACKAGES = " \
     packagegroup-gnss-sdr-bin \
     packagegroup-gnss-sdr-drivers \
     packagegroup-gnss-sdr-extradevel \
-    packagegroup-gnss-sdr-qt5 \
 "
 
 PROVIDES = "${PACKAGES}"
@@ -49,12 +48,12 @@ RDEPENDS_packagegroup-gnss-sdr-base = " \
 "
 
 SUMMARY_packagegroup-gnss-sdr-bin = "GNSS-SDR binary."
-DEPENDS_packagegroup-gnss-sdr-bin = " \
+RDEPENDS_packagegroup-gnss-sdr-bin = " \
     gnss-sdr \
 "
 
 SUMMARY_packagegroup-gnss-sdr-drivers = "RF front-end drivers."
-DEPENDS_packagegroup-gnss-sdr-drivers = " \
+RDEPENDS_packagegroup-gnss-sdr-drivers = " \
     uhd \
     rtl-sdr \
     libhackrf \
@@ -64,7 +63,7 @@ DEPENDS_packagegroup-gnss-sdr-drivers = " \
 "
 
 SUMMARY_packagegroup-gnss-sdr-extradevel = "Extra utilities."
-DEPENDS_packagegroup-gnss-sdr-extradevel = " \
+RDEPENDS_packagegroup-gnss-sdr-extradevel = " \
     nano \
     gedit \
     htop \
@@ -81,44 +80,5 @@ DEPENDS_packagegroup-gnss-sdr-extradevel = " \
     lighttpd \
     lighttpd-module-cgi \
     libuio \
-"
-
-SUMMARY_packagegroup-gnss-sdr-qt5 = "QT5 development."
-DEPENDS_packagegroup-gnss-sdr-qt5 = " \
-    qtbase \     
-    qtbase-fonts \     
-    qtbase-plugins \     
-    qtbase-tools \     
-    qtbase-examples \     
-    qtdeclarative \     
-    qtdeclarative-plugins \     
-    qtdeclarative-tools \     
-    qtdeclarative-examples \     
-    qtdeclarative-qmlplugins \     
-    qtmultimedia \     
-    qtmultimedia-plugins \     
-    qtmultimedia-examples \     
-    qtmultimedia-qmlplugins \     
-    qtsvg \     
-    qtsvg-plugins \     
-    qtsensors \     
-    qtimageformats-plugins \     
-    qtsystems \     
-    qtsystems-tools \     
-    qtsystems-examples \     
-    qtsystems-qmlplugins \     
-    qtscript \     
-    qt3d \     
-    qt3d-examples \     
-    qt3d-qmlplugins \     
-    qt3d-tools \     
-    qtwebkit \     
-    qtwebkit-examples-examples \     
-    qtwebkit-qmlplugins \     
-    qtgraphicaleffects-qmlplugins \     
-    qtconnectivity-qmlplugins \     
-    qtlocation-plugins \     
-    qtlocation-qmlplugins \     
-    cinematicexperience \
 "
 
