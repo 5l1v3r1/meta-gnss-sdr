@@ -30,6 +30,13 @@ RDEPENDS_packagegroup-gnss-sdr-base = " \
     uhd \
     python3-mako \
     python3-six \
+    python-pyqt5 \
+    python-pyqt \
+    python-txws \
+    python-pyephem \
+    liberation-fonts \
+    python-pygtk \
+    python-pygobject \    
     pugixml \
     protobuf \
     rtl-sdr \
