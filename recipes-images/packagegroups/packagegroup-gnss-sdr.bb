@@ -35,7 +35,7 @@ RDEPENDS_packagegroup-gnss-sdr-base = " \
     python-txws \
     python-pyephem \
     liberation-fonts \
-    python-pygtk \
+#    python-pygtk \
     python-pygobject \    
     pugixml \
     protobuf \
