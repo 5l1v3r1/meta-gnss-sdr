@@ -60,6 +60,7 @@ RDEPENDS_packagegroup-gnss-sdr-drivers = " \
     gr-osmosdr \
     gr-iio \
     iio-oscilloscope \
+    ezdma \
 "
 
 SUMMARY_packagegroup-gnss-sdr-extradevel = "Extra utilities."
