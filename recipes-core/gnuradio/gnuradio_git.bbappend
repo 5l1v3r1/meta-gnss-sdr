@@ -1,2 +1,2 @@
 #enable gnuradio-companion
-PACKAGECONFIG += "grc" 
+PACKAGECONFIG_append = " grc " 
