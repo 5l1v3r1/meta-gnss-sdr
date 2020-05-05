@@ -68,6 +68,7 @@ RDEPENDS_packagegroup-gnss-sdr-extradevel = " \
     nano \
     gedit \
     htop \
+    psmisc \
     git \
     wget \
     gdb \
@@ -81,5 +82,6 @@ RDEPENDS_packagegroup-gnss-sdr-extradevel = " \
     lighttpd \
     lighttpd-module-cgi \
     libuio \
+    lsuio \
 "
 
